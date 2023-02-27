@@ -52,9 +52,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 # Нелинейное преобразование
 def transform(X):
-    """
-    Функция осуществляет нелинейное преобразование данных X
-    """
+    # Функция осуществляет нелинейное преобразование данных X
     N = X.shape[0]
     Z = np.zeros((N, 8))
     Z[:, 0] = np.ones(N)
